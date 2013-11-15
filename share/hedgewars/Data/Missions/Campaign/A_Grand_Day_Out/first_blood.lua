@@ -614,10 +614,10 @@ function onGameInit()
 	Theme = "Nature"
 
 
-	AddTeam(loc("Natives"), 29439, "Bone", "Island", "HillBilly", "cm_birdy")
-	youngh = AddHog(loc("Leaks A Lot"), 0, 100, "Rambo")
-  elderh = AddHog(loc("Righteous Beard"), 0, 99, "IndianChief")
-  princess = AddHog(loc("Fell From Heaven"), 0, 300, "tiara")
+	AddTeam(loc("Natives"), 29439, "Bone", "Island", "Classic", "cm_birdy")
+	youngh = AddHog(loc("Wallace"), 0, 100, "Rambo")
+  elderh = AddHog(loc("Gromit"), 0, 99, "IndianChief")
+  princess = AddHog(loc("Mimi Mimikins"), 0, 300, "tiara")
   AnimSetGearPosition(princess, 1911, 1361)
   HogTurnLeft(princess, true)
   AnimSetGearPosition(elderh, 2667, 1208)
@@ -625,8 +625,8 @@ function onGameInit()
   AnimSetGearPosition(youngh, 1862, 1362)
   HogTurnLeft(youngh, false)
 
-  AddTeam(loc("Cannibals"), 14483456, "Skull", "Island", "Pirate","cm_vampire")
-  cannibal = AddHog(loc("Brainiac"), 0, 5, "Zombi")
+  AddTeam(loc("Penguins"), 14483456, "Skull", "Island", "SuperVillain","cm_vampire")
+  cannibal = AddHog(loc("Feathers McGraw"), 0, 5, "Zombi")
   AnimSetGearPosition(cannibal, 525, 1256)
   HogTurnLeft(cannibal, false)
   

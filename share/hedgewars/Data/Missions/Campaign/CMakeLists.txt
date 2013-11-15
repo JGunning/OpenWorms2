@@ -1,4 +1,4 @@
-add_subdirectory("A_Classic_Fairytale")
+add_subdirectory("A_Grand_Day_Out")
 add_subdirectory("A_Space_Adventure")
 
 file(GLOB Scripts *.lua)
