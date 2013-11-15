@@ -514,29 +514,29 @@ end
 
 function AddHogs()
 	AddTeam(loc("Natives"), 29439, "Bone", "Island", "HillBilly", "cm_birdy")
-  ramon = AddHog(loc("Ramon"), 0, 100, "rasta")
-	leaks = AddHog(loc("Leaks A Lot"), 0, 100, "Rambo")
-  dense = AddHog(loc("Dense Cloud"), 0, 100, "RobinHood")
-  spiky = AddHog(loc("Spiky Cheese"), 0, 100, "hair_yellow")
+  ramon = AddHog(loc("Shaun the Sheep"), 0, 100, "rasta")
+	leaks = AddHog(loc("Wallace"), 0, 100, "Rambo")
+  dense = AddHog(loc("Gromit"), 0, 100, "RobinHood")
+  spiky = AddHog(loc("Fluffles"), 0, 100, "hair_yellow")
 
-  AddTeam(loc("Weaklings"), 14483456, "Skull", "Island", "Pirate","cm_vampire")
+  AddTeam(loc("Weak Penguins"), 14483456, "Skull", "Island", "SuperVillain","cm_vampire")
   cannibals = {}
-  cannibals[1] = AddHog(loc("Brainiac"), 5, 20, "Zombi")
+  cannibals[1] = AddHog(loc("Fake Feathers"), 5, 20, "Zombi")
 
   for i = 2, 5 do
     cannibals[i] = AddHog(HogNames[i], 1, 20, "Zombi")
     hogNr[cannibals[i]] = i - 2
   end
 
-  AddTeam(loc("Stronglings"), 14483456, "Skull", "Island", "Pirate","cm_vampire")
+  AddTeam(loc("Strong Penguins"), 14483456, "Skull", "Island", "SuperVillain","cm_vampire")
 
   for i = 6, 9 do
-    cannibals[i] = AddHog(HogNames[i], 2, 30, "vampirichog")
+    cannibals[i] = AddHog(HogNames[i], 2, 30, "Feathers McGraw")
     hogNr[cannibals[i]] = i - 2
   end
 
   AddTeam(loc("011101001"), 14483456, "ring", "UFO", "Robot", "cm_star")
-  cyborg = AddHog(loc("Y3K1337"), 0, 200, "cyborg1")
+  cyborg = AddHog(loc("Cooker"), 0, 200, "cyborg1")
 end
 
 function PlaceHogs()
